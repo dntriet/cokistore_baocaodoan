@@ -1,0 +1,104 @@
+:root{
+  --font-family:Tilt Neon;
+}
+/* Bordered form */
+/* form {
+    border: 3px solid #f1f1f1;
+  } */
+  
+  /* Full-width inputs */
+  .login_container>input, 
+  .login_container>input {
+    font-family: var(--font-family);
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ffffff;
+  }
+  
+  /* Set a style for all buttons */
+    .login_btn-login {
+    font-family: var(--font-family);
+    background-color: #ED9A69;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+    text-align: center;
+
+  }
+  
+  /* Add a hover effect for buttons */
+    .login_btn-login:hover {
+    opacity: 0.7;
+    transition: all 0.2s linear;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    font-family: var(--font-family);
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 10px 0 10px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .login_container {
+    padding: 16px;
+    width: 90%;
+    margin-left: 40px;
+  }
+  /* The "Forgot password" text */
+.login-contact-header{
+   font-family: Tilt Neon;
+    padding: 20px;
+    font-size: 22px;
+    color: #D88F71;
+    text-align: center; 
+}
+.submit_container{
+    display: flex;
+    justify-content: center;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+  font-family: var(--font-family);
+}
+.login_newcustomer{
+  font-family: var(--font-family);
+  margin-left: 30px;
+}
+.login_newcustomer a:hover{
+/* opacity: 0.6; */
+}
+
+.to-sign_up{
+  padding: 10px;
+  border: 1px solid #D88F71;
+}
+.to-sign_up:hover{
+  background-color: #ED9A69;
+  color: #f2f1f1;
+  transition: all 0.3s linear;
+  border-radius: 4px;
+}

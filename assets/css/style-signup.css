@@ -1,0 +1,73 @@
+
+.sign-up_container{
+    margin: 10px 20px;
+}
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.cancelbtn,
+.signupbtn{
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor:pointer;
+    width:100%;
+}
+.cancelbtn:hover,
+.signupbtn:hover{
+    opacity:0.8;
+}
+.cancelbtn{
+    font-family: var(--font-family);
+    background-color: #e7baa0;
+    float:right;
+    width: 45%;
+}
+.signupbtn{
+    font-family: var(--font-family);
+    background-color: #ed9a69;
+    float:left;
+    width:45%;
+}
+.sign-up_container{
+    padding:16px;
+}
+.clearfix::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+    width: 100%;
+    }
+}
+
+.signup-contact-header{
+    font-family: Tilt Neon;
+    padding: 20px;
+    font-size: 22px;
+    color: #D88F71;
+    text-align: center;
+}
+.sign-up_container>input{
+    font-family: var(--font-family);
+    width:100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    border: 1px solid #ccc;
+}
+.sign-up_container>input:focus {
+    background-color: #ddd;
+    outline: none;
+}
+label{
+    font-family: var(--font-family);
+}
+
+

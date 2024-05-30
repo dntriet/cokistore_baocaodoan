@@ -1,0 +1,560 @@
+/* navbar: start */
+.homepage-navbar-buttons {
+    margin-left: 50px;
+    font-size: 20px;
+}
+.nav-item {
+    margin-right: 40px;
+}
+.homepage-search{
+    margin-left: 20px;
+}
+.bi-person {
+    font-size: 20px;
+}
+
+.bi-chevron-down {
+    font-size: 15px;
+}
+.homepage-login {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+/* navbar: end */
+
+/* footer: start */
+footer {
+    margin-top: 16px;
+}
+ul {
+    list-style-type: none;
+    padding: 0 0 0 0;
+}
+.homepage-footer-container{
+  background-color: #D88F71;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 26px 0;
+}
+.homepage-footer-list h6{
+    line-height: 1.5;
+    display: block;
+    font-family: Tilt Neon;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 0 5px;
+    color: #000;
+    font-size: 28px;
+}
+.homepage-footer-item li{
+  margin: 13px 0;
+  padding: 8px 0;
+}
+.homepage-footer-item a{
+color: var(--color-text-footer);
+font-size: 18px;
+font-family: var(--font-family);
+}
+.homepage-footer-item a:hover{
+  color: #ffffff;
+  transition: all 0.1s ease-in-out;
+}
+
+.homepage-footer-coki-thanks{
+  font-family: var(--font-family);
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--footer-text-color);
+  line-height: 1.6em;
+
+}
+.homepage-footer-img{
+  padding: 20px;
+  width:240px;
+  height:100px;
+}
+.homepage-footer-learn-more{
+  color: #0000FF;
+  font-size:18px;
+  padding:4px 6px;
+  font-family:Tilt Neon;
+  cursor:pointer;
+}
+.homepage-footer-learn-more:hover{
+  text-decoration: underline;
+}
+
+.homepage-more-and-more{
+  background-color: #6b6bed;
+  padding: 10px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #eae8e8;
+}
+.homepage-footer-follow-us{
+  margin-right: 20px;
+}
+.homepage-footer-follow-us a{
+  padding: 4px;
+}
+.fa-brands {
+    font-size: 30px;
+    padding: 20px 40px;
+    color: #fff;
+}
+/* end footer css */
+
+
+/* entrance-slider: start */
+.in-image-caption-entrance-slide{
+    margin-left: 50%;
+    margin-bottom: 30%;
+}
+.in-image-caption-entrance-slide h5 {
+    font-size: 50px;
+}
+/* entrance-slider: end  */
+
+/* best sellers: start */
+.homepage-title-best-sellers {
+    font-style: normal;
+    text-transform: none;
+    line-height: 1.5;
+    color: #d88f71;
+    letter-spacing: 1px;
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.homepage-best-sellers {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.homepage-best-sellers-con div{
+    margin-bottom: 20px;
+}
+.homepage-best-sellers-data {
+    display: flex;
+    justify-content: space-between;
+    object-fit: contain;
+    vertical-align: bottom;
+    transition: opacity .3s ease-in;
+    width: 100%;
+    object-position: top center;
+    
+}
+
+.homepage-best-sellers-data img {
+    /* flex: 1; */
+    width: 80%;
+    height: 70%;
+    box-sizing: border-box;
+    cursor: grab;
+
+}
+.homepage-best-sellers-data p {
+    text-align: center;
+}
+/* best seller: end  */
+
+/* buttons: start */
+.homepage-button-container {
+    text-align: center;
+}
+.homepage-button {
+    font-size: 20px;
+    font-family: Tilt Neon;
+    background-color: #F55C85;
+    border: none;
+    border-radius: 9px;
+    height: 50px;
+    width: 400px;
+    color: white;
+    letter-spacing: 2px;
+}
+.homepage-button:hover {
+    background-color: #E7BAA0;
+}
+.homepage-signup-btn {
+    margin-left: 5px;
+    border-radius: 9px;
+    background-color: #EFECE8;
+}
+.homepage-signup-btn:hover {
+    background-color: #E7BAA0;
+}
+
+#homepage-entrance-slide-button {
+    width: 100px;
+    background-color: #E7BAA0;
+}
+#homepage-entrance-slide-button:hover {
+    background-color: #EFECE8;
+}
+/*buttons: end*/
+
+/* discover: start */
+
+.homepage-text-discover {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+/*discover: end*/
+.homepage-text-discover p {
+    margin-bottom: 20px;
+}
+
+/* carousel no2: start */
+/* entrance-slider: start */
+
+
+.in-image-caption-entrance-slide{
+    overflow: hidden;
+    margin-left: 50%;
+    margin-bottom: 30%;
+}
+.in-image-caption-entrance-slide h5 {
+    font-size: 50px;
+}
+/* entrance-slider: end  */
+
+/* best sellers: start */
+.homepage-title-best-sellers {
+    font-style: normal;
+    text-transform: none;
+    line-height: 1.5;
+    color: #d88f71;
+    letter-spacing: 1px;
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.homepage-best-sellers {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.homepage-best-sellers-con div{
+    margin-bottom: 20px;
+}
+.homepage-best-sellers-data {
+    display: flex;
+    justify-content: space-between;
+    object-fit: contain;
+    vertical-align: bottom;
+    transition: opacity .3s ease-in;
+    width: 100%;
+    object-position: top center;
+    
+}
+
+.homepage-best-sellers-data img {
+    /* flex: 1; */
+    width: 80%;
+    height: 70%;
+    box-sizing: border-box;
+    cursor: grab;
+
+}
+.homepage-best-sellers-data p {
+    text-align: center;
+}
+/* best seller: end  */
+
+/* buttons: start */
+.homepage-button-container{
+    text-align: center;
+    margin: 30px;
+}
+
+.homepage-button {
+    font-size: 22px;
+    font-family: Tilt Neon;
+    background-color: #F55C85;
+    border: none;
+    border-radius: 9px;
+    height: 50px;
+    color: white;
+    letter-spacing: 2px;
+    padding: 4px 16px;
+}
+.homepage-button:hover {
+    background-color: #E7BAA0;
+    transition: all 0.2s linear;
+}
+.homepage-signup-btn {
+    margin-left: 5px;
+    border-radius: 9px;
+    background-color: #EFECE8;
+}
+.homepage-signup-btn:hover {
+    background-color: #E7BAA0;
+}
+
+#homepage-entrance-slide-button {
+    width: 250px;
+    background-color: #f2b18c;
+}
+#homepage-entrance-slide-button:hover {
+    background-color: #EFECE8;
+}
+/*buttons: end*/
+
+/* discover: start */
+
+.homepage-text-discover {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+/*discover: end*/
+.homepage-text-discover p {
+    margin-bottom: 20px;
+}
+
+/* carousel no2: start */
+.slide {
+    
+}
+
+.carousel-inner {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.col img {
+    width: 60%;
+    height: 60%;
+    margin-left: 5px;
+
+}
+
+/*carousel no2: end*/
+section {
+    font-family: Tilt Neon;
+}
+
+div {
+    font-family: Tilt Neon;
+}
+
+/* quote: start */
+.homepage-quote {
+    background-color: #EFECE8;
+    padding-bottom: 50px;
+    margin: 0 30px;
+}
+.homepage-quote-title {
+    text-align: center;
+    color: #d88f71;
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.homepage-quote-container {
+    display: flex;
+}
+.homepage-quote-container-sub {
+    height: 450px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+}
+
+/*quote: end*/
+
+/*subcribe*/
+.homepage-text-subcribe {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+/* review: start */
+.homepage-review-header {
+    margin-left: 0%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color:#d88f71;
+}
+.homepage-review-col {
+    margin-left: 0px;
+}
+.homepage-review-col img {
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    margin-left: 50px;
+    
+}
+
+.homepage-review-col a {
+    margin-left: 28%;
+    width: 33%;    
+    
+}
+
+.homepage-review-col p {
+    text-align: center;
+}
+#multi-slide-carousel-homepage-review {
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.homepage-review-row {
+    width: 600px;
+    height: auto;
+}
+
+/* review: end  */.slide {
+    
+}
+.carousel-inner {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.col img {
+    width: 60%;
+    height: 60%;
+    margin-left: 5px;
+
+}
+
+/*carousel no2: end*/
+section {
+    font-family: Tilt Neon;
+}
+
+div {
+    font-family: Tilt Neon;
+}
+
+/* quote: start */
+.homepage-quote {
+    background-color: #EFECE8;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+.homepage-quote-title {
+    text-align: center;
+    color: #d88f71;
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.homepage-quote-container {
+    display: flex;
+    margin-left: 20px;
+}
+.homepage-quote-container-sub {
+    height: 450px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    line-height: 1.6em;
+}
+
+/*quote: end*/
+
+/*subcribe*/
+.homepage-text-subcribe {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    word-spacing: 3px;
+    line-height: 30px;
+    padding-bottom: 100px;
+}
+
+/* review: start */
+.homepage-review-header {
+    margin-left: 0%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color:#d88f71;
+}
+.homepage-review-col {
+    margin-left: 0px;
+}
+.homepage-review-col img {
+    width: 50%;
+    height: 40%;
+    text-align: center;
+    margin-left: 50px;
+    
+}
+
+.homepage-review-col a {
+    margin-left: 28%;
+    width: 33%;    
+    
+}
+
+.homepage-review-col p {
+    text-align: center;
+}
+#multi-slide-carousel-homepage-review {
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.homepage-review-row {
+    width: 600px;
+    height: auto;
+}
+/* review: end  */
+
+/* ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ */
+
+/* SALE 10% */
+.sale-ten-percent{
+    position: fixed;
+    background:#ed9969;
+    box-shadow: rgba(50, 50, 50, 0.75) 0px 0px 0px 0px;
+    border-radius: 0px;
+    transform: rotate(270deg);
+    transform-origin: left top;
+    top: 338.057px;
+    left: 0px;
+    display: block;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.sale-ten-percent p{
+  font-family: "fjalla one", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 6px 4px;
+}
+.sale-ten-percent:hover p{
+  background-color: #ffdacb;
+}
+ 
